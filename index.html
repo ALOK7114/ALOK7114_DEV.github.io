@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    {
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alok Dev Portfolio</title>
@@ -18,7 +18,7 @@
 
     body {
         /* FIXED: Use forward slashes and 'file:///' prefix for local images */
-        background-image: url("C:/Users/aloka/Downloads/images3.jpeg");
+        background-image: url("images/images3.jpeg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -140,7 +140,7 @@
 
     <section id="home">
         <!-- Photo Slot -->
-        <img src="C:/Users/aloka/Downloads/profimage.jpeg" alt="Owner" class="profile-img" data-aos="zoom-in">
+        <img src="assetss/profimage.jpeg" alt="Owner" class="profile-img" data-aos="zoom-in">
         <h1 data-aos="fade-up">(o|o) </h1>
         <h1 data-aos="fade-up">Hello, I'm ALOK YADAV </h1>
         <p class="tag" data-aos="fade-up" data-aos-delay="200">here i showcase my work</p>
@@ -184,7 +184,9 @@
     </section>
 
     <!-- Scroll Animation Scripts -->
-    <script src="https://cdnjs.cloudflare.com"></script>
+    <!-- ✅ CORRECT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.css">
     <script>
         // Initialize AOS (Animate on Scroll)
         AOS.init({
@@ -200,3 +202,4 @@
 
 </body>
 </html>
+
